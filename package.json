@@ -44,7 +44,7 @@
   },
   "scripts": {
     "test": "gulp lint",
-    "start": "node filesystem-server.js -d C:/Users",
+    "start": "node filesystem-server.js -d ./Files/",
     "ci-publish": "gulp publish"
   }
 }
